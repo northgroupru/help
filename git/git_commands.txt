@@ -1,0 +1,33 @@
+1) создание новой ветки master2
+git checkout -b master2
+
+git push origin master2
+
+2) удаление ветки
+git branch -d master3
+
+3) слияние ветки
+обновится ветка, которая текущая
+git merge master3
+
+т.е. текущая ветка мастер обновится. Возьмет изменения из master3
+
+4) создание пустой ветки
+git checkout --orphan testing
+
+git rm -fr ./
+git push origin testing
+
+5) сброс текущих изменений на последний push
+git reset --hard HEAD
+
+6) возврат к конкретному комиту и фикс на сервере
+git reset --hard 76b4d54e88fcd3cf4594ef558c255e0ed472bece
+git push origin +master
+
+
+7) переключаемся на ветку testing
+git checkout testing
+
+8) просмотр всех существующих веток
+git branch

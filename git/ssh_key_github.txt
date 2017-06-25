@@ -1,0 +1,10 @@
+1)создание файлов id_rsa и id_rsa.pub в домашней директории ~/.ssh/
+ssh-keygen -t rsa -b4096 -C "northgroupru@gmail.com"
+2)eval "$(ssh-agent -s)"
+3)vi ~/.ssh/config
+Host *
+IdentityFile ~/.ssh/id_rsa
+4)ssh-add -K ~/.ssh/id_rsa
+
+git config --global user.name "user"
+git config --global user.email "user@gmail.com"
