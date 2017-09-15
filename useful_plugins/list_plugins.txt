@@ -1,0 +1,10 @@
+js: owl carousel Слайдер картинок
+js: jquery selectric отличный комбобокс 
+js: ckeditor wysiwyg
+js: sticky прилипающие панели
+js: videojs.com для просмотра видео
+js: jquery crop при показе картинок можно приближать
+js: moment.js работа с датами в js
+js: nst slider двигающийся ползунок. Можно периоды, отрезки чисел задавать
+
+
